@@ -9,7 +9,7 @@ import jakarta.validation.constraints.NotNull;
  * AVAILABLE cabin. paxCount and diningPreference are applied as given.
  */
 public class AmendBookingRequest {
-
+	
     @NotNull
     private Long cabinId;
 
